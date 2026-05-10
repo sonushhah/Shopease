@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopEase | Online Shopping Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo">Shop<span>Ease</span></a>
+
+    <nav class="navbar">
+      <a href="index.html" class="active">Home</a>
+      <a href="shop.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html">Cart (<span id="cartCount">0</span>)</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay">
+      <p class="category">NEW SEASON COLLECTION</p>
+      <h1>Shop Smart With <span>ShopEase</span></h1>
+      <p class="hero-text">
+        Discover stylish clothing, accessories, and electronics with a smooth and simple online shopping experience.
+      </p>
+      <a href="shop.html" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature-box">
+      <h3>Fast Delivery</h3>
+      <p>Quick and reliable delivery service.</p>
+    </div>
+
+    <div class="feature-box">
+      <h3>Best Prices</h3>
+      <p>Affordable products for everyone.</p>
+    </div>
+
+    <div class="feature-box">
+      <h3>Easy Shopping</h3>
+      <p>Simple design and smooth navigation.</p>
+    </div>
+  </section>
+
+  <section class="products-section">
+    <div class="section-title">
+      <p>Popular Items</p>
+      <h2>Featured Products</h2>
+    </div>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/product1.jpg" alt="Blue Denim Jacket" />
+        <h3>Blue Denim Jacket</h3>
+        <p class="rating">★★★★★</p>
+        <p class="price">$59.99</p>
+        <a href="denim.html" class="btn small-btn">View Product</a>
+      </div>
+
+      <div class="product-card">
+        <img src="images/product2.jpg" alt="Smart Watch" />
+        <h3>Smart Watch</h3>
+        <p class="rating">★★★★★</p>
+        <p class="price">$89.99</p>
+        <a href="watch.html" class="btn small-btn">View Product</a>
+      </div>
+
+      <div class="product-card">
+        <img src="images/product3.jpg" alt="Wireless Headphones" />
+        <h3>Wireless Headphones</h3>
+        <p class="rating">★★★★☆</p>
+        <p class="price">$74.99</p>
+        <a href="headphones.html" class="btn small-btn">View Product</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="banner">
+    <h2>Get Up To 40% Off</h2>
+    <p>Upgrade your shopping experience with ShopEase today.</p>
+    <a href="shop.html" class="btn">Explore Products</a>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 ShopEase. All rights reserved.</p>
+    <p>Designed for ICT203 Human Computer Interaction</p>
+  </footer>
+
+  <button id="backToTop" onclick="scrollToTop()">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

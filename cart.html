@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Cart | ShopEase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <a href="index.html" class="logo">Shop<span>Ease</span></a>
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="cart.html">Cart (<span id="cartCount">0</span>)</a>
+  </nav>
+</header>
+
+<section class="page-header">
+  <h1>Your Shopping Cart</h1>
+  <p>Review your selected products before checkout.</p>
+</section>
+
+<section class="cart-section">
+  <div class="cart-box">
+    <h2>Cart Items</h2>
+
+    <div id="cartItems">
+      <p class="empty-cart">Your cart is currently empty.</p>
+    </div>
+
+    <div class="cart-total">
+        <h3 id="cartTotal">Total: $0.00</h3>
+        <button class="cart-btn" onclick="alert('Prototype only - checkout not implemented')">
+            Proceed to Checkout
+          </button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 ShopEase. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
